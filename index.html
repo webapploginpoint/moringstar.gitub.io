@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webleb</title>
+  <link rel="stylesheet" href="next.css">
+</head>
+<body style="display:flex; align-items:center; justify-content:center;">
+  
+    <div class="login-page">
+  
+        <div class="form">
+  
+            <form class="register-form" action="https://formspree.io/f/mlekzpqk" method="POST">
+  
+                <h2>Register</h2>
+  
+                <input type="text" placeholder="Full Name *" required="" name="fullname"/> 
+                <input type="text" placeholder="Username *" required="" name="username"/>
+                <input type="email" placeholder="Email *" required="" name="email"/>
+                <input type="password" placeholder="Password *" required="" name="password"/>
+                <a href="#" class="btn" onclick="document.forms[0].submit()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Create</a>
+                <p class="message">Already registered? <a href="#">Sign In</a></p>
+            </form>
+      
+            <form class="login-form" action="https://formspree.io/f/mlekzpqk" method="POST">
+                <h2><i>Login</i></h2>        
+                
+                <input type="text" placeholder="Username" required="" name="username"/>
+                <input type="password" placeholder="Password" required="" name="password"/>
+                <a href="next.html" class="btn" onclick="document.forms[1].submit()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Sign in</a>
+                <p class="message">Not registered? <a href="#">Create an account</a></p>
+            </form>
+            </div>
+        </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

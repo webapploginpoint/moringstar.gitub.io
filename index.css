@@ -1,0 +1,58 @@
+body {
+    background-color: whitesmoke;
+    color: blue;
+    font-family: "Open Sans", sans-serif;
+}
+
+.background {
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.point {
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+
+.login-page {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.login-page p {
+    margin-bottom: 10px;
+}
+
+.login-page label {
+    display: block;
+    font-weight: bold;
+}
+
+.login-page input[type="text"],
+.login-page input[type="tel"],
+.login-page input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.login-page button[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.login-page a {
+    color: blue;
+}
+
+.email {
+    color: rgba(0, 0, 0, 0.651);
+}
